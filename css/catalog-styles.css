@@ -1,0 +1,131 @@
+.fullcatalog {
+    background: url(../img/main-bg.png);
+    background-repeat: repeat;
+    height: 5000px;
+}
+
+.fullcatalog .container {
+    padding-top: 50px;
+}
+
+.fullcatalog-top {
+    margin-bottom: 25px;
+}
+
+ .header-table {
+    max-width: 750px;
+    background: linear-gradient(180deg, #191919 0%, rgba(25, 25, 25, 0.00) 402%);
+
+
+    border-radius: 15px;
+
+
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+ }
+
+ .header-table-names {
+    width: 400px;
+    display: flex;
+    align-items: center;
+ }
+
+ .header-table-names input {
+   font-size: 14px;
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+   border: 0;
+   outline: 0;
+   border-radius: 20px;
+   padding: 5px 10px;
+   margin-right: 10px;
+ }
+
+ .header-table-names button {
+   width: 20px;
+   height: 20px;
+   background: none;
+   border: 0;
+   outline: 0;
+}
+
+ .header-table-prices {
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+ }
+
+ .header-table-prices-title {
+    margin-bottom: 3px;
+ }
+
+ .header-table-prices-subtitle {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .header-table-prices-subtitle p{
+    min-width: 70px;
+ }
+
+
+.fullcatalog-position {
+    margin-bottom: 25px;
+}
+
+ .catalog-table {
+    max-width: 750px;
+    font-size: 16px;
+    
+    padding: 15px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+ }
+
+.catalog-table-position {
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+ }
+
+ .catalog-table-position:last-child {
+    border-bottom: 0;
+ }
+
+ .catalog-table-names {
+    width: 400px;
+ }
+
+ .catalog-table-prices {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    text-align: center;
+ }
+
+ .catalog-table-prices p {
+    min-width: 70px;
+ }
+
+ .fullcatalog-position-logo {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ .fullcatalog-position-logo img {
+    
+ }
+
+ .hide {
+    display: none;
+ }
